@@ -1,2 +1,713 @@
-import{a as z}from"./chunk-4NO5HQ3E.mjs";import{a as Le,b as Ie,c as We}from"./chunk-2AHVAV5Q.mjs";import{a as Ye}from"./chunk-7SIW55VD.mjs";import{b as Fe,c as Ne,d as ze,e as R,f as j,g as M}from"./chunk-5I6UCAUY.mjs";import{A as he,B as xe,D as ge,J as O,K as u,M as I,N as W,P as ue,Q as be,R as ye,Y as n,Z as _e,b as h,d as se,ea as we,g as me,ga as ve,h as fe,ha as Xe,i as le,ja as ke,k as ce,ka as c,la as x,n as e,o as l,oa as r,pa as Te,q as P,qa as F,r as pe,ra as N,u as de}from"./chunk-PUHG2OFZ.mjs";import"./chunk-JR5VT52U.mjs";import"./chunk-WTCYPHI4.mjs";import"./chunk-RIUMFBNJ.mjs";ke.loadWebFontsFromSelectors(["GF;Manrope-500","GF;Manrope-700"]);var Ee=[{family:"Manrope",moduleAsset:{localModuleIdentifier:"local-module:css/irIquxyD6:default",url:"https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_A87jxeN7B.woff2"},style:"normal",url:"https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_A87jxeN7B.woff2",weight:"500"},{family:"Manrope",moduleAsset:{localModuleIdentifier:"local-module:css/irIquxyD6:default",url:"https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2"},style:"normal",url:"https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2",weight:"700"}],Ce=['.framer-UynSw .framer-styles-preset-199mp42:not(.rich-text-wrapper), .framer-UynSw .framer-styles-preset-199mp42.rich-text-wrapper h2 { --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-size: 32px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 40px; --framer-text-alignment: left; --framer-text-color: var(--token-be079bad-eabd-4234-8a56-5579c7057187, #000000); --framer-text-decoration: none; --framer-text-transform: none; }','@media (max-width: 1099px) and (min-width: 768px) { .framer-UynSw .framer-styles-preset-199mp42:not(.rich-text-wrapper), .framer-UynSw .framer-styles-preset-199mp42.rich-text-wrapper h2 { --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-size: 26px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 40px; --framer-text-alignment: left; --framer-text-color: var(--token-be079bad-eabd-4234-8a56-5579c7057187, #000000); --framer-text-decoration: none; --framer-text-transform: none; } }','@media (max-width: 767px) and (min-width: 0px) { .framer-UynSw .framer-styles-preset-199mp42:not(.rich-text-wrapper), .framer-UynSw .framer-styles-preset-199mp42.rich-text-wrapper h2 { --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif; --framer-font-size: 22px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 40px; --framer-text-alignment: left; --framer-text-color: var(--token-be079bad-eabd-4234-8a56-5579c7057187, #000000); --framer-text-decoration: none; --framer-text-transform: none; } }'],He="framer-UynSw";var ir=F(M),nr=u(x),B=u(c),Y=u(P.div),or=F(R),sr=F(j),mr=u(W),fr={amE1rZiWJ:"(min-width: 1100px)",fYIhYIaEz:"(min-width: 768px) and (max-width: 1099px)",xDNpOpSbt:"(max-width: 767px)"};var Ue="framer-eLcXT",lr={amE1rZiWJ:"framer-v-dpkqkz",fYIhYIaEz:"framer-v-eqpf8u",xDNpOpSbt:"framer-v-1amk27t"},V={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,x:30,y:0},b={delay:.2,duration:1.5,ease:[.35,0,0,1],type:"tween"},cr={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,transition:b,x:30,y:0},Ae={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,x:0,y:30},Se={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,transition:b,x:0,y:30},a=i=>typeof i=="object"&&i!==null&&typeof i.src=="string"?i:typeof i=="string"?{src:i}:void 0,Z={delay:0,duration:1.5,ease:[.35,0,0,1],type:"tween"},qe={opacity:0,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transformPerspective:1200,transition:Z,x:30,y:0},f=i=>Array.isArray(i)?i.length>0:i!=null&&i!=="",G=z(),pr={Desktop:"amE1rZiWJ",Phone:"xDNpOpSbt",Tablet:"fYIhYIaEz"},dr=({height:i,id:y,width:g,..._})=>{var p,s;return{..._,variant:(s=(p=pr[_.variant])!==null&&p!==void 0?p:_.variant)!==null&&s!==void 0?s:"amE1rZiWJ"}},hr=se(function(i,y){let{activeLocale:g,setLocale:_}=xe(),p=ge(),[s]=ve({from:{alias:"Yg0gGoq22",data:Ye,type:"Collection"},select:[{collection:"Yg0gGoq22",name:"y34GyoiDi",type:"Identifier"},{collection:"Yg0gGoq22",name:"KM6vLSrCh",type:"Identifier"},{collection:"Yg0gGoq22",name:"CZOu0H9p6",type:"Identifier"},{collection:"Yg0gGoq22",name:"rAQdOCzbG",type:"Identifier"}],where:Xe(p,"Yg0gGoq22")}),w=t=>{if(!s)throw new de(`No data matches path variables: ${JSON.stringify(p)}`);return s[t]};var C,H,U;let{style:De,className:Pe,layoutId:A,variant:Oe,y34GyoiDi:Re=(C=w("y34GyoiDi"))!==null&&C!==void 0?C:"",KM6vLSrCh:S=w("KM6vLSrCh"),CZOu0H9p6:Q=(H=w("CZOu0H9p6"))!==null&&H!==void 0?H:"",rAQdOCzbG:J=(U=w("rAQdOCzbG"))!==null&&U!==void 0?U:"",tWWnDNC5c:K,aenblr3yM:q,VhiBHDq4j:v,GEjCmzOLB:X,IM10hI9im:k,Z1hqWUC7W:d,VM9YdSoW4:T,ptV016ruW:L,DxXwQZ42e:$,XHroQ0pz9:ee,...je}=dr(i);me(()=>{let t=z(s,g);if(t.robots){let m=document.querySelector('meta[name="robots"]');m?m.setAttribute("content",t.robots):(m=document.createElement("meta"),m.setAttribute("name","robots"),m.setAttribute("content",t.robots),document.head.appendChild(m))}},[s,g]),le(()=>{let t=z(s,g);if(document.title=t.title||"",t.viewport){var m;(m=document.querySelector('meta[name="viewport"]'))===null||m===void 0||m.setAttribute("content",t.viewport)}let ne=t.bodyClassName;if(ne){let D=document.body;D.classList.forEach(oe=>oe.startsWith("framer-body-")&&D.classList.remove(oe)),D.classList.add(`${t.bodyClassName}-framer-eLcXT`)}return()=>{ne&&document.body.classList.remove(`${t.bodyClassName}-framer-eLcXT`)}},[s,g]);let[o,gr]=we(Oe,fr,!1),ur=void 0,Me=ce(null),Be=f(Q),Ve=f(J),Ge=f(K),br=he(),re=f(v),Ze=f(X),ae=f(k),Qe=f(T),Je=f(L),te=f($),Ke=f(ee),$e=fe(),ie=[ze,We,He];return be({}),e(ye.Provider,{value:{primaryVariantId:"amE1rZiWJ",variantClassNames:lr},children:l(pe,{id:A??$e,children:[l(P.div,{...je,className:O(Ue,...ie,"framer-dpkqkz",Pe),ref:y??Me,style:{...De},children:[e(I,{height:89,width:"100vw",y:0,children:e(W,{className:"framer-1grblyr-container",layoutScroll:!0,children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{variant:"kUbzgqLYa"},xDNpOpSbt:{variant:"dKaOon5M9"}},children:e(M,{height:"100%",id:"GY2y7U7QX",layoutId:"GY2y7U7QX",style:{width:"100%"},variant:"XR3KwPlhe",width:"100%"})})})}),e("div",{className:"framer-11tb7ux","data-framer-name":"Content",name:"Content",children:l("div",{className:"framer-o7pt38",children:[e("div",{className:"framer-xnpqmo","data-framer-name":"Header",name:"Header",children:e("div",{className:"framer-1o6ijvg",children:e(nr,{__framer__animate:{transition:b},__framer__animateOnce:!0,__framer__enter:V,__framer__exit:cr,__framer__styleAppearEffectEnabled:!0,__framer__threshold:.5,__fromCanvasComponent:!0,__perspectiveFX:!1,__targetOpacity:1,children:e(h,{children:e("h1",{className:"framer-styles-preset-zcx1yu","data-styles-preset":"KN1n4eozB",style:{"--framer-text-color":"var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"},children:"Fintech Dello Banking App - New Way to Empower Life"})}),className:"framer-1362is6",fonts:["Inter"],style:{transformPerspective:1200},text:Re,verticalAlignment:"top",withExternalLayout:!0})})}),e(Y,{__framer__animate:{transition:b},__framer__animateOnce:!0,__framer__enter:Ae,__framer__exit:Se,__framer__styleAppearEffectEnabled:!0,__framer__threshold:0,__perspectiveFX:!1,__targetOpacity:1,className:"framer-zewxk","data-framer-name":"Wrap",name:"Wrap",style:{transformPerspective:1200},children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(206.80000000000013),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 128px, 1800px) * 1.1)",...a(S)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(179.30000000000007),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 32px, 1800px) * 1.1)",...a(S)}}},children:e(B,{__framer__styleTransformEffectEnabled:!0,__framer__transformTargets:[{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1.3,skewX:0,skewY:0,x:0,y:0}},{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0}}],__framer__transformTrigger:"onInView",__perspectiveFX:!1,__targetOpacity:1,background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(191.80000000000018),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 160px, 1800px) * 1.1)",...a(S)},className:"framer-wygqby","data-framer-name":"Image",name:"Image",style:{transformPerspective:1200}})})}),l(Y,{__framer__animate:{transition:Z},__framer__animateOnce:!0,__framer__enter:V,__framer__exit:qe,__framer__styleAppearEffectEnabled:!0,__framer__threshold:0,__perspectiveFX:!1,__targetOpacity:1,className:"framer-1waku4i",style:{transformPerspective:1200},children:[Be&&e(x,{__fromCanvasComponent:!0,children:e(h,{children:e("h1",{className:"framer-styles-preset-zcx1yu","data-styles-preset":"KN1n4eozB",style:{"--framer-text-color":"rgb(0, 0, 0)"},children:"Rethinking the banking dello app with our innovating experience to empower changes in the life."})}),className:"framer-1f4eokm",fonts:["Inter"],text:Q,verticalAlignment:"top",withExternalLayout:!0}),Ve&&e(x,{__fromCanvasComponent:!0,children:e(h,{children:l("h3",{className:"framer-styles-preset-19zkxbw","data-styles-preset":"rVaIBWTV0",style:{"--framer-text-color":"var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"},children:["is a health tech startup on a mission to make proactive healthcare available for all. They offer full-body scans and human-friendly diagnoses at their health clinics. 14islands was brought on board to design and develop a unique experience to introduce Neko's services to the market, enticing people to visit the clinics.",e("br",{}),e("br",{}),"We created an emotional connection with users by focusing on health issues, highlighting the purpose and benefits of scans for the skin, heart, and body. We crafted moving point clouds on top of people to humanize Neko's pioneering technologies. Additionally, 14islands art-directed photoshoots to bring this original concept to life."]})}),className:"framer-1tg5rod",fonts:["Inter"],text:J,verticalAlignment:"top",withExternalLayout:!0}),Ge&&e(_e,{links:[{href:q,implicitPathVariables:void 0},{href:q,implicitPathVariables:void 0},{href:q,implicitPathVariables:void 0}],children:t=>e(I,{children:e(W,{className:"framer-zpzbdp-container",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{bohRFuhqj:t[1]},xDNpOpSbt:{bohRFuhqj:t[2]}},children:e(R,{bohRFuhqj:t[0],height:"100%",i7oFluX4k:K,id:"lmR_ykQsz",layoutId:"lmR_ykQsz",variant:"DY9uGg3Qz",width:"100%"})})})})})]}),re&&l(Y,{__framer__animate:{transition:b},__framer__animateOnce:!0,__framer__enter:Ae,__framer__exit:Se,__framer__styleAppearEffectEnabled:!0,__framer__threshold:0,__perspectiveFX:!1,__targetOpacity:1,className:"framer-1t6o724","data-framer-name":"Gallery",name:"Gallery",style:{transformPerspective:1200},children:[re&&e("div",{className:"framer-6cp10d","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(-228.19999999999993),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 128px, 1800px) * 1.1)",...a(v)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(62.30000000000001),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(v)}}},children:e(c,{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(-643.1999999999999),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 160px, 1800px) * 1.1)",...a(v)},className:"framer-nkn7v9","data-framer-name":"Image",name:"Image"})})}),Ze&&e("div",{className:"framer-9j1p77","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(311.80000000000007),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 128px, 1800px) * 1.1)",...a(X)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(328.3),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(X)}}},children:e(c,{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(196.80000000000007),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 160px, 1800px) * 1.1)",...a(X)},className:"framer-1g3waz9","data-framer-name":"Image",name:"Image"})})}),ae&&l("div",{className:"framer-fb53fs",children:[e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",loading:r(876.8),sizes:"max(min(100vw - 128px, 1800px), 1px)",...a(d)}},xDNpOpSbt:{background:{alt:"",fit:"fill",loading:r(606.8),sizes:"358px",...a(d)}}},children:e(c,{background:{alt:"",fit:"fill",loading:r(1076.8),sizes:"max(min(100vw - 160px, 1800px), 1px)",...a(d)},className:"framer-1teufhb","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(856.8),pixelHeight:1176,pixelWidth:1947,sizes:"calc(max(min(100vw - 128px, 1800px), 1px) * 1.1)",...a(d)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(596.8),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(d)}}},children:e(B,{__framer__spring:{damping:60,delay:0,duration:.3,ease:[.44,0,.56,1],mass:1,stiffness:500,type:"spring"},__framer__styleTransformEffectEnabled:!0,__framer__transformTargets:[{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1.3,skewX:0,skewY:0,x:0,y:0}},{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0}}],__framer__transformTrigger:"onInView",__perspectiveFX:!1,__targetOpacity:1,background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1046.8000000000002),pixelHeight:1176,pixelWidth:1947,sizes:"calc(max(min(100vw - 160px, 1800px), 1px) * 1.1)",...a(d)},className:"framer-1aho2c8","data-framer-name":"Image",name:"Image",style:{transformPerspective:1200}})})})}),ae&&e("div",{className:"framer-k5t16","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(856.8),pixelHeight:1176,pixelWidth:1947,sizes:"calc(max(min(100vw - 128px, 1800px), 1px) * 1.1)",...a(k)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(596.8),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(k)}}},children:e(B,{__framer__spring:{damping:60,delay:0,duration:.3,ease:[.44,0,.56,1],mass:1,stiffness:500,type:"spring"},__framer__styleTransformEffectEnabled:!0,__framer__transformTargets:[{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1.3,skewX:0,skewY:0,x:0,y:0}},{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0}}],__framer__transformTrigger:"onInView",__perspectiveFX:!1,__targetOpacity:1,background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1046.8000000000002),pixelHeight:1176,pixelWidth:1947,sizes:"calc(max(min(100vw - 160px, 1800px), 1px) * 1.1)",...a(k)},className:"framer-4fkgxb","data-framer-name":"Image",name:"Image",style:{transformPerspective:1200}})})})]}),Qe&&e("div",{className:"framer-1ktq6af","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1291.8000000000002),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 128px, 1800px) * 1.1)",...a(T)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(810.3),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(T)}}},children:e(c,{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1676.8000000000002),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 160px, 1800px) * 1.1)",...a(T)},className:"framer-j76f3p","data-framer-name":"Image",name:"Image"})})}),Je&&e("div",{className:"framer-miew7d","data-framer-name":"Wrap",name:"Wrap",children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1831.8000000000002),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 128px, 1800px) * 1.1)",...a(L)}},xDNpOpSbt:{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(1076.3),pixelHeight:1176,pixelWidth:1947,sizes:"393.8px",...a(L)}}},children:e(c,{background:{alt:"",fit:"fill",intrinsicHeight:1176,intrinsicWidth:1947,loading:r(2516.8),pixelHeight:1176,pixelWidth:1947,sizes:"calc(min(100vw - 160px, 1800px) * 1.1)",...a(L)},className:"framer-4ulmtj","data-framer-name":"Image",name:"Image"})})})]}),te&&l(Y,{__framer__animate:{transition:Z},__framer__animateOnce:!0,__framer__enter:V,__framer__exit:qe,__framer__styleAppearEffectEnabled:!0,__framer__threshold:0,__perspectiveFX:!1,__targetOpacity:1,className:"framer-4826vb","data-framer-name":"Final Text",name:"Final Text",style:{transformPerspective:1200},children:[te&&e(x,{__fromCanvasComponent:!0,children:e(h,{children:e("h2",{className:"framer-styles-preset-199mp42","data-styles-preset":"irIquxyD6",style:{"--framer-text-color":"var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"},children:"The sleek and durable design of our laptop makes it the ideal choice for professionals on-the-go. With its powerful processor, ample storage space, and long battery life, you can stay productive no matter where your work takes you. Whether you're in the office or on the road, this laptop is the perfect solution for all of your computing needs."})}),className:"framer-mnfcnt",fonts:["Inter"],text:$,verticalAlignment:"top",withExternalLayout:!0}),Ke&&e(x,{__fromCanvasComponent:!0,children:e(h,{children:e("h3",{className:"framer-styles-preset-19zkxbw","data-styles-preset":"rVaIBWTV0",style:{"--framer-text-color":"var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"},children:"The sleek and durable design of our laptop makes it the ideal choice for professionals on-the-go. With its powerful processor, ample storage space, and long battery life, you can stay productive no matter where your work takes you. Whether you're in the office or on the road, this laptop is the perfect solution for all of your computing needs."})}),className:"framer-1ocxjoq",fonts:["Inter"],text:ee,verticalAlignment:"top",withExternalLayout:!0})]})]})}),e(n,{breakpoint:o,overrides:{fYIhYIaEz:{height:720,y:1236.8},xDNpOpSbt:{height:720,y:866.8}},children:e(I,{height:900,width:"100vw",y:1616.8,children:e(n,{breakpoint:o,overrides:{xDNpOpSbt:{__framer__styleTransformEffectEnabled:void 0,style:{}}},children:e(mr,{__framer__styleTransformEffectEnabled:!0,__framer__transformTargets:[{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:-500}},{target:{opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:0}}],__framer__transformTrigger:"onInView",__perspectiveFX:!1,__targetOpacity:1,className:"framer-1n9b1dn-container",style:{transformPerspective:1200},children:e(n,{breakpoint:o,overrides:{fYIhYIaEz:{style:{maxHeight:"100%",width:"100%"},variant:"jbbcbpulJ"},xDNpOpSbt:{style:{maxHeight:"100%",width:"100%"},variant:"RSos2oHJP"}},children:e(j,{height:"100%",id:"KB3Sc8hZM",layoutId:"KB3Sc8hZM",style:{height:"100%",maxHeight:"100%",width:"100%"},variant:"gsKKaJUDB",width:"100%"})})})})})})]}),e("div",{className:O(Ue,...ie),id:"overlay"})]})})}),xr=["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",`.${G.bodyClassName}-framer-eLcXT { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; }`,".framer-eLcXT.framer-1v3nb9m, .framer-eLcXT .framer-1v3nb9m { display: block; }",".framer-eLcXT.framer-dpkqkz { align-content: center; align-items: center; background-color: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, #ffffff); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1100px; }",".framer-eLcXT .framer-1grblyr-container { flex: none; height: auto; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 10; }",".framer-eLcXT .framer-11tb7ux { align-content: center; align-items: center; background-color: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, #ffffff); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 160px; height: min-content; justify-content: center; overflow: visible; padding: 160px 80px 240px 80px; position: relative; width: 100%; z-index: 2; }",".framer-eLcXT .framer-o7pt38 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 120px; height: min-content; justify-content: center; max-width: 1800px; overflow: visible; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-xnpqmo { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-1o6ijvg { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: center; max-width: 800px; overflow: visible; padding: 0px; position: relative; width: 1px; }",".framer-eLcXT .framer-1362is6, .framer-eLcXT .framer-1f4eokm, .framer-eLcXT .framer-1tg5rod, .framer-eLcXT .framer-mnfcnt, .framer-eLcXT .framer-1ocxjoq { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }",".framer-eLcXT .framer-zewxk { border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; border-top-left-radius: 24px; border-top-right-radius: 24px; flex: none; height: 900px; overflow: hidden; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }",".framer-eLcXT .framer-wygqby, .framer-eLcXT .framer-nkn7v9, .framer-eLcXT .framer-1g3waz9, .framer-eLcXT .framer-1aho2c8, .framer-eLcXT .framer-4fkgxb, .framer-eLcXT .framer-j76f3p, .framer-eLcXT .framer-4ulmtj { flex: none; height: 110%; left: calc(50.00000000000002% - 110.00000000000001% / 2); overflow: hidden; position: absolute; top: calc(50.00000000000002% - 110.00000000000001% / 2); width: 110%; }",".framer-eLcXT .framer-1waku4i { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; max-width: 1200px; min-height: 601px; overflow: visible; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-zpzbdp-container { flex: none; height: auto; position: relative; width: auto; }",".framer-eLcXT .framer-1t6o724 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; min-height: 1720px; overflow: hidden; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-6cp10d, .framer-eLcXT .framer-9j1p77, .framer-eLcXT .framer-1ktq6af, .framer-eLcXT .framer-miew7d { border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; border-top-left-radius: 24px; border-top-right-radius: 24px; flex: none; height: 800px; overflow: hidden; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }",".framer-eLcXT .framer-fb53fs { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-1teufhb, .framer-eLcXT .framer-k5t16 { border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; border-top-left-radius: 24px; border-top-right-radius: 24px; flex: 1 0 0px; height: 600px; overflow: hidden; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }",".framer-eLcXT .framer-4826vb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 48px; height: min-content; justify-content: center; max-width: 1200px; overflow: hidden; padding: 0px; position: relative; width: 100%; }",".framer-eLcXT .framer-1n9b1dn-container { flex: none; height: 90vh; max-height: 1000px; position: relative; width: 100%; z-index: 1; }","@supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-eLcXT.framer-dpkqkz, .framer-eLcXT .framer-11tb7ux, .framer-eLcXT .framer-o7pt38, .framer-eLcXT .framer-xnpqmo, .framer-eLcXT .framer-1o6ijvg, .framer-eLcXT .framer-1waku4i, .framer-eLcXT .framer-1t6o724, .framer-eLcXT .framer-fb53fs, .framer-eLcXT .framer-4826vb { gap: 0px; } .framer-eLcXT.framer-dpkqkz > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-eLcXT.framer-dpkqkz > :first-child, .framer-eLcXT .framer-11tb7ux > :first-child, .framer-eLcXT .framer-o7pt38 > :first-child, .framer-eLcXT .framer-1o6ijvg > :first-child, .framer-eLcXT .framer-1waku4i > :first-child, .framer-eLcXT .framer-1t6o724 > :first-child, .framer-eLcXT .framer-4826vb > :first-child { margin-top: 0px; } .framer-eLcXT.framer-dpkqkz > :last-child, .framer-eLcXT .framer-11tb7ux > :last-child, .framer-eLcXT .framer-o7pt38 > :last-child, .framer-eLcXT .framer-1o6ijvg > :last-child, .framer-eLcXT .framer-1waku4i > :last-child, .framer-eLcXT .framer-1t6o724 > :last-child, .framer-eLcXT .framer-4826vb > :last-child { margin-bottom: 0px; } .framer-eLcXT .framer-11tb7ux > * { margin: 0px; margin-bottom: calc(160px / 2); margin-top: calc(160px / 2); } .framer-eLcXT .framer-o7pt38 > * { margin: 0px; margin-bottom: calc(120px / 2); margin-top: calc(120px / 2); } .framer-eLcXT .framer-xnpqmo > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-eLcXT .framer-xnpqmo > :first-child, .framer-eLcXT .framer-fb53fs > :first-child { margin-left: 0px; } .framer-eLcXT .framer-xnpqmo > :last-child, .framer-eLcXT .framer-fb53fs > :last-child { margin-right: 0px; } .framer-eLcXT .framer-1o6ijvg > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-eLcXT .framer-1waku4i > *, .framer-eLcXT .framer-1t6o724 > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-eLcXT .framer-fb53fs > * { margin: 0px; margin-left: calc(40px / 2); margin-right: calc(40px / 2); } .framer-eLcXT .framer-4826vb > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } }",`@media (min-width: 768px) and (max-width: 1099px) { .${G.bodyClassName}-framer-eLcXT { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; } .framer-eLcXT.framer-dpkqkz { width: 768px; } .framer-eLcXT .framer-11tb7ux { gap: 0px; padding: 160px 64px 160px 64px; } .framer-eLcXT .framer-zewxk { height: 600px; } .framer-eLcXT .framer-6cp10d, .framer-eLcXT .framer-9j1p77, .framer-eLcXT .framer-1ktq6af, .framer-eLcXT .framer-miew7d { height: 500px; } .framer-eLcXT .framer-1teufhb, .framer-eLcXT .framer-k5t16 { height: 400px; } .framer-eLcXT .framer-1n9b1dn-container { height: auto; } @supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-eLcXT .framer-11tb7ux { gap: 0px; } .framer-eLcXT .framer-11tb7ux > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-eLcXT .framer-11tb7ux > :first-child { margin-top: 0px; } .framer-eLcXT .framer-11tb7ux > :last-child { margin-bottom: 0px; } }}`,`@media (max-width: 767px) { .${G.bodyClassName}-framer-eLcXT { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; } .framer-eLcXT.framer-dpkqkz { width: 390px; } .framer-eLcXT .framer-11tb7ux { gap: 0px; padding: 120px 16px 160px 16px; } .framer-eLcXT .framer-o7pt38 { gap: 80px; } .framer-eLcXT .framer-1o6ijvg { gap: 48px; } .framer-eLcXT .framer-zewxk { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; height: 350px; } .framer-eLcXT .framer-1t6o724 { gap: 16px; min-width: 358px; width: min-content; } .framer-eLcXT .framer-6cp10d, .framer-eLcXT .framer-9j1p77, .framer-eLcXT .framer-1ktq6af, .framer-eLcXT .framer-miew7d { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; height: 250px; width: 358px; } .framer-eLcXT .framer-fb53fs { gap: 16px; width: 358px; } .framer-eLcXT .framer-1teufhb, .framer-eLcXT .framer-k5t16 { border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; border-top-left-radius: 12px; border-top-right-radius: 12px; height: 200px; } .framer-eLcXT .framer-4826vb { min-height: 10px; } .framer-eLcXT .framer-1n9b1dn-container { height: auto; } @supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-eLcXT .framer-11tb7ux, .framer-eLcXT .framer-o7pt38, .framer-eLcXT .framer-1o6ijvg, .framer-eLcXT .framer-1t6o724, .framer-eLcXT .framer-fb53fs { gap: 0px; } .framer-eLcXT .framer-11tb7ux > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-eLcXT .framer-11tb7ux > :first-child, .framer-eLcXT .framer-o7pt38 > :first-child, .framer-eLcXT .framer-1o6ijvg > :first-child, .framer-eLcXT .framer-1t6o724 > :first-child { margin-top: 0px; } .framer-eLcXT .framer-11tb7ux > :last-child, .framer-eLcXT .framer-o7pt38 > :last-child, .framer-eLcXT .framer-1o6ijvg > :last-child, .framer-eLcXT .framer-1t6o724 > :last-child { margin-bottom: 0px; } .framer-eLcXT .framer-o7pt38 > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-eLcXT .framer-1o6ijvg > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } .framer-eLcXT .framer-1t6o724 > * { margin: 0px; margin-bottom: calc(16px / 2); margin-top: calc(16px / 2); } .framer-eLcXT .framer-fb53fs > * { margin: 0px; margin-left: calc(16px / 2); margin-right: calc(16px / 2); } .framer-eLcXT .framer-fb53fs > :first-child { margin-left: 0px; } .framer-eLcXT .framer-fb53fs > :last-child { margin-right: 0px; } }}`,...Ne,...Ie,...Ce],E=ue(hr,xr,"framer-eLcXT"),Yr=E;E.displayName="Work";E.defaultProps={height:4680,width:1100};Te(E,[{explicitInter:!0,fonts:[{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",url:"assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",url:"assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+1F00-1FFF",url:"assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0370-03FF",url:"assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",url:"assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",url:"assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",weight:"400"},{family:"Inter",source:"framer",style:"normal",unicodeRange:"U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",url:"assets/b6Y37FthZeALduNqHicBT6FutY.woff2",weight:"400"}]},...ir,...or,...sr,...N(Fe),...N(Le),...N(Ee)],{supportsExplicitInterCodegen:!0});var Er={exports:{default:{type:"reactComponent",name:"FramerYg0gGoq22",slots:[],annotations:{framerIntrinsicWidth:"1100",framerCanvasComponentVariantDetails:'{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"fYIhYIaEz":{"layout":["fixed","auto"]},"xDNpOpSbt":{"layout":["fixed","auto"]}}}',framerImmutableVariables:"true",framerResponsiveScreen:"",framerContractVersion:"1",framerIntrinsicHeight:"4680",framerDisplayContentsDiv:"false",framerComponentViewportWidth:"true"}},Props:{type:"tsType",annotations:{framerContractVersion:"1"}},__FramerMetadata__:{type:"variable"}}};export{Er as __FramerMetadata__,Yr as default};
-//# sourceMappingURL=riSVto02blomP7m0phxhfvoKJU7Itl5S1FGJ4Bys98E.JE7OTELS.mjs.map
+import {a as w} from "./chunk-ZIMBFKHW.mjs";
+import {a as M} from "./chunk-NTUHS7K6.mjs";
+import "./chunk-2AHVAV5Q.mjs";
+import {a as oe} from "./chunk-7SIW55VD.mjs";
+import {b as te, c as ne, d as ie, e as C, f as I, g as F} from "./chunk-5I6UCAUY.mjs";
+import {A as j, B, J as A, K as q, M as h, N as T, P as W, Q as L, R as Q, T as Z, V as D, Y as i, Z as O, b as E, d as R, ea as K, g as H, ga as $, h as V, i as S, k as X, ka as J, la as ee, m as Y, n as e, o as m, oa as x, pa as re, q as G, qa as g, r as k, ra as ae} from "./chunk-PUHG2OFZ.mjs";
+import "./chunk-JR5VT52U.mjs";
+import "./chunk-WTCYPHI4.mjs";
+import "./chunk-RIUMFBNJ.mjs";
+var ge = g(F)
+    , ue = q(ee)
+    , xe = g(C)
+    , N = q(T)
+    , we = g(M)
+    , ye = g(I)
+    , be = {
+    pI9W_PNdI: "(min-width: 768px) and (max-width: 1099px)",
+    VnGzoQNds: "(max-width: 767px)",
+    WQLkyLRf1: "(min-width: 1100px)"
+};
+var se = "framer-TAqaM"
+    , ve = {
+    pI9W_PNdI: "framer-v-11bkdjx",
+    VnGzoQNds: "framer-v-rno4l3",
+    WQLkyLRf1: "framer-v-72rtr7"
+}
+    , _e = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    x: 30,
+    y: 0
+}
+    , me = {
+    delay: .2,
+    duration: 1.5,
+    ease: [.35, 0, 0, 1],
+    type: "tween"
+}
+    , ke = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    transition: me,
+    x: 30,
+    y: 0
+}
+    , Ae = {
+    opacity: .001,
+    rotate: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    x: 50,
+    y: 0
+}
+    , qe = {
+    delay: .2,
+    duration: .5,
+    ease: [0, .46, .56, 1],
+    type: "tween"
+}
+    , Te = {
+    effect: Ae,
+    tokenization: "line",
+    transition: qe,
+    trigger: "onMount",
+    type: "appear"
+}
+    , Me = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    x: 40,
+    y: 0
+}
+    , fe = {
+    delay: .3,
+    duration: 1.5,
+    ease: [.35, 0, 0, 1],
+    type: "tween"
+}
+    , Ce = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    transition: fe,
+    x: 40,
+    y: 0
+}
+    , Ie = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    x: 0,
+    y: 30
+}
+    , ce = {
+    delay: 0,
+    duration: 1.5,
+    ease: [.35, 0, 0, 1],
+    type: "tween"
+}
+    , Fe = {
+    opacity: 0,
+    rotate: 0,
+    rotateX: 0,
+    rotateY: 0,
+    scale: 1,
+    skewX: 0,
+    skewY: 0,
+    transformPerspective: 1200,
+    transition: ce,
+    x: 0,
+    y: 30
+}
+    , Ne = a => typeof a == "object" && a !== null && typeof a.src == "string" ? a : typeof a == "string" ? {
+    src: a
+} : void 0
+    , Pe = ({query: a, pageSize: l, children: f}) => {
+    let c = $(a);
+    return f(c)
+}
+    , P = w()
+    , Ue = {
+    Desktop: "WQLkyLRf1",
+    Phone: "VnGzoQNds",
+    Tablet: "pI9W_PNdI"
+}
+    , ze = ({height: a, id: l, width: f, ...c}) => {
+    var p, d;
+    return {
+        ...c,
+        variant: (d = (p = Ue[c.variant]) !== null && p !== void 0 ? p : c.variant) !== null && d !== void 0 ? d : "WQLkyLRf1"
+    }
+}
+    , Ee = R(function(a, l) {
+    let {activeLocale: f, setLocale: c} = B()
+        , {style: p, className: d, layoutId: b, variant: le, y34GyoiDieYPccsinJ: He, KM6vLSrCheYPccsinJ: Ve, HO_Dxy3FbeYPccsinJ: Se, ideYPccsinJ: Xe, ...pe} = ze(a);
+    H( () => {
+            let r = w(void 0, f);
+            if (r.robots) {
+                let t = document.querySelector('meta[name="robots"]');
+                t ? t.setAttribute("content", r.robots) : (t = document.createElement("meta"),
+                    t.setAttribute("name", "robots"),
+                    t.setAttribute("content", r.robots),
+                    document.head.appendChild(t))
+            }
+        }
+        , [void 0, f]),
+        S( () => {
+                let r = w(void 0, f);
+                if (document.title = r.title || "",
+                    r.viewport) {
+                    var t;
+                    (t = document.querySelector('meta[name="viewport"]')) === null || t === void 0 || t.setAttribute("content", r.viewport)
+                }
+                let v = r.bodyClassName;
+                if (v) {
+                    let n = document.body;
+                    n.classList.forEach(u => u.startsWith("framer-body-") && n.classList.remove(u)),
+                        n.classList.add(`${r.bodyClassName}-framer-TAqaM`)
+                }
+                return () => {
+                    v && document.body.classList.remove(`${r.bodyClassName}-framer-TAqaM`)
+                }
+            }
+            , [void 0, f]);
+    let[o,Ye] = K(le, be, !1)
+        , Ge = void 0
+        , de = X(null)
+        , je = j()
+        , he = V()
+        , U = [ie];
+    return L({}),
+        e(Q.Provider, {
+            value: {
+                primaryVariantId: "WQLkyLRf1",
+                variantClassNames: ve
+            },
+            children: m(k, {
+                id: b ?? he,
+                children: [m(G.div, {
+                    ...pe,
+                    className: A(se, ...U, "framer-72rtr7", d),
+                    ref: l ?? de,
+                    style: {
+                        ...p
+                    },
+                    children: [e(h, {
+                        height: 89,
+                        width: "100vw",
+                        y: 0,
+                        children: e(T, {
+                            className: "framer-p34yk0-container",
+                            layoutScroll: !0,
+                            children: e(i, {
+                                breakpoint: o,
+                                overrides: {
+                                    pI9W_PNdI: {
+                                        variant: "kUbzgqLYa"
+                                    },
+                                    VnGzoQNds: {
+                                        variant: "dKaOon5M9"
+                                    }
+                                },
+                                children: e(F, {
+                                    height: "100%",
+                                    id: "bhImHD0Sl",
+                                    layoutId: "bhImHD0Sl",
+                                    style: {
+                                        width: "100%"
+                                    },
+                                    variant: "XR3KwPlhe",
+                                    width: "100%"
+                                })
+                            })
+                        })
+                    }), e("main", {
+                        className: "framer-nwve3s",
+                        "data-framer-name": "Content",
+                        name: "Content",
+                        children: m("div", {
+                            className: "framer-ftb13i",
+                            "data-framer-name": "Inner Content",
+                            name: "Inner Content",
+                            children: [m("section", {
+                                "aria-label": "intro-heading",
+                                className: "framer-m6sp60",
+                                "data-framer-name": "Hero",
+                                name: "Hero",
+                                children: [e(ue, {
+                                    __framer__animate: {
+                                        transition: me
+                                    },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: _e,
+                                    __framer__exit: ke,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__threshold: 0,
+                                    __fromCanvasComponent: !0,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: e(E, {
+                                        children: m("h1", {
+                                            className: "framer-styles-preset-zcx1yu",
+                                            "data-styles-preset": "KN1n4eozB",
+                                            style: {
+                                                "--framer-text-color": "var(--token-904c14a9-7582-43d7-a43c-85f49d580145, rgb(138, 138, 138))"
+                                            },
+                                            children: ["Be like a man.", e("br", {}), "Advice for men.", m("span", {
+                                                style: {
+                                                    "--framer-text-color": "var(--token-be079bad-eabd-4234-8a56-5579c7057187, rgb(0, 0, 0))"
+                                                },
+                                                children: [e("br", {}), "Be a real $MAN. "]
+                                            })]
+                                        })
+                                    }),
+                                    className: "framer-l5382l",
+                                    effect: Te,
+                                    fonts: ["Inter"],
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    verticalAlignment: "top",
+                                    withExternalLayout: !0
+                                }), e(i, {
+                                    breakpoint: o,
+                                    overrides: {
+                                        VnGzoQNds: {
+                                            y: 244.8
+                                        }
+                                    },
+                                    children: e(h, {
+                                        height: 48,
+                                        y: 316.8,
+                                        children: e(N, {
+                                            __framer__animate: {
+                                                transition: fe
+                                            },
+                                            __framer__animateOnce: !0,
+                                            __framer__enter: Me,
+                                            __framer__exit: Ce,
+                                            __framer__styleAppearEffectEnabled: !0,
+                                            __framer__threshold: 0,
+                                            __perspectiveFX: !1,
+                                            __targetOpacity: 1,
+                                            className: "framer-qn66lz-container",
+                                            style: {
+                                                transformPerspective: 1200
+                                            },
+                                            children: e(C, {
+                                                bohRFuhqj: "https://dexscreener.com/solana/crjtv3wcptszqosmxtyjeeiz1zv57mzdfwup9dg5d37h",
+                                                height: "100%",
+                                                i7oFluX4k: "WhZEoFj5uejcq392GeYEC7Fmwr5q49wyq9jD5U3pump",
+                                                id: "ak1_umG1X",
+                                                layoutId: "ak1_umG1X",
+                                                variant: "cmQsGoNxI",
+                                                width: "100%"
+                                            })
+                                        })
+                                    })
+                                })]
+                            }), m("div", {
+                                className: "framer-po57qo",
+                                "data-framer-name": "Projects",
+                                name: "Projects",
+                                children: [e("div", {
+                                    className: "framer-2ibz2h",
+                                    children: e(Z, {
+                                        children: e(Pe, {
+                                            query: {
+                                                from: {
+                                                    alias: "eYPccsinJ",
+                                                    data: oe,
+                                                    type: "Collection"
+                                                },
+                                                offset: {
+                                                    type: "LiteralValue",
+                                                    value: 0
+                                                },
+                                                select: [{
+                                                    collection: "eYPccsinJ",
+                                                    name: "y34GyoiDi",
+                                                    type: "Identifier"
+                                                }, {
+                                                    collection: "eYPccsinJ",
+                                                    name: "KM6vLSrCh",
+                                                    type: "Identifier"
+                                                }, {
+                                                    collection: "eYPccsinJ",
+                                                    name: "HO_Dxy3Fb",
+                                                    type: "Identifier"
+                                                }, {
+                                                    collection: "eYPccsinJ",
+                                                    name: "id",
+                                                    type: "Identifier"
+                                                }]
+                                            },
+                                            children: (r, t, v) => e(Y, {
+                                                children: r.map( ({y34GyoiDi: n, KM6vLSrCh: u, HO_Dxy3Fb: s, id: z}, Be) => (n ?? (n = ""),
+                                                s ?? (s = ""),
+                                                    e(k, {
+                                                        id: `eYPccsinJ-${z}`,
+                                                        children: e(D.Provider, {
+                                                            value: {
+                                                                HO_Dxy3Fb: s
+                                                            },
+                                                            children: e(O, {
+                                                                links: [{
+                                                                    href: {
+                                                                        pathVariables: {
+                                                                            HO_Dxy3Fb: s
+                                                                        },
+                                                                        webPageId: "Yg0gGoq22"
+                                                                    },
+                                                                    implicitPathVariables: void 0
+                                                                }, {
+                                                                    href: {
+                                                                        pathVariables: {
+                                                                            HO_Dxy3Fb: s
+                                                                        },
+                                                                        webPageId: "Yg0gGoq22"
+                                                                    },
+                                                                    implicitPathVariables: void 0
+                                                                }, {
+                                                                    href: {
+                                                                        pathVariables: {
+                                                                            HO_Dxy3Fb: s
+                                                                        },
+                                                                        webPageId: "Yg0gGoq22"
+                                                                    },
+                                                                    implicitPathVariables: void 0
+                                                                }],
+                                                                children: _ => e(i, {
+                                                                    breakpoint: o,
+                                                                    overrides: {
+                                                                        pI9W_PNdI: {
+                                                                            height: 450,
+                                                                            width: "max((min(100vw - 128px, 1800px) - 40px) / 2, 200px)",
+                                                                            y: 484.8
+                                                                        },
+                                                                        VnGzoQNds: {
+                                                                            height: 300,
+                                                                            width: "max(min(100vw - 32px, 1800px), 200px)",
+                                                                            y: 372.8
+                                                                        }
+                                                                    },
+                                                                    children: e(h, {
+                                                                        height: 600,
+                                                                        width: "max((min(100vw - 160px, 1800px) - 40px) / 2, 200px)",
+                                                                        y: 604.8,
+                                                                        children: e(N, {
+                                                                            __framer__animate: {
+                                                                                transition: ce
+                                                                            },
+                                                                            __framer__animateOnce: !0,
+                                                                            __framer__enter: Ie,
+                                                                            __framer__exit: Fe,
+                                                                            __framer__styleAppearEffectEnabled: !0,
+                                                                            __framer__threshold: 0,
+                                                                            __perspectiveFX: !1,
+                                                                            __targetOpacity: 1,
+                                                                            className: "framer-r5ebzq-container",
+                                                                            "data-framer-name": "Project Card",
+                                                                            name: "Project Card",
+                                                                            style: {
+                                                                                transformPerspective: 1200
+                                                                            },
+                                                                            children: e(i, {
+                                                                                breakpoint: o,
+                                                                                overrides: {
+                                                                                    pI9W_PNdI: {
+                                                                                        jk7hR1PkU: _[1]
+                                                                                    },
+                                                                                    VnGzoQNds: {
+                                                                                        jk7hR1PkU: _[2],
+                                                                                        variant: "u7t4xt4bR"
+                                                                                    }
+                                                                                },
+                                                                                children: e(M, {
+                                                                                    belbEkdrE: Ne(u),
+                                                                                    height: "100%",
+                                                                                    id: "kvRCSNPG3",
+                                                                                    jk7hR1PkU: _[0],
+                                                                                    layoutId: "kvRCSNPG3",
+                                                                                    name: "Project Card",
+                                                                                    style: {
+                                                                                        height: "100%",
+                                                                                        width: "100%"
+                                                                                    },
+                                                                                    Ty82T0JvZ: n,
+                                                                                    variant: "slBZ3hiPp",
+                                                                                    width: "100%"
+                                                                                })
+                                                                            })
+                                                                        })
+                                                                    })
+                                                                })
+                                                            })
+                                                        })
+                                                    }, z)))
+                                            })
+                                        })
+                                    })
+                                }), e(i, {
+                                    breakpoint: o,
+                                    overrides: {
+                                        pI9W_PNdI: {
+                                            background: {
+                                                alt: "",
+                                                fit: "fit",
+                                                loading: x(2444.8),
+                                                pixelHeight: 200,
+                                                pixelWidth: 600,
+                                                positionX: "center",
+                                                positionY: "center",
+                                                sizes: "min(100vw - 128px, 1800px)",
+                                                src: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif",
+                                                srcSet: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif?scale-down-to=512 512w,https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif 600w"
+                                            }
+                                        },
+                                        VnGzoQNds: {
+                                            background: {
+                                                alt: "",
+                                                fit: "fit",
+                                                loading: x(2752.8),
+                                                pixelHeight: 200,
+                                                pixelWidth: 600,
+                                                positionX: "center",
+                                                positionY: "center",
+                                                sizes: "min(100vw - 32px, 1800px)",
+                                                src: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif",
+                                                srcSet: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif?scale-down-to=512 512w,https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif 600w"
+                                            }
+                                        }
+                                    },
+                                    children: e(J, {
+                                        background: {
+                                            alt: "",
+                                            fit: "fit",
+                                            loading: x(3164.8),
+                                            pixelHeight: 200,
+                                            pixelWidth: 600,
+                                            positionX: "center",
+                                            positionY: "center",
+                                            sizes: "min(100vw - 160px, 1800px)",
+                                            src: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif",
+                                            srcSet: "https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif?scale-down-to=512 512w,https://framerusercontent.com/images/sCekzZk66GHZHevkBuEnlScapk.gif 600w"
+                                        },
+                                        className: "framer-ui6wpl"
+                                    })
+                                })]
+                            })]
+                        })
+                    }), e(i, {
+                        breakpoint: o,
+                        overrides: {
+                            pI9W_PNdI: {
+                                height: 720,
+                                y: 2804.8
+                            },
+                            VnGzoQNds: {
+                                height: 720,
+                                y: 3112.8
+                            }
+                        },
+                        children: e(h, {
+                            height: 900,
+                            width: "100vw",
+                            y: 3604.8,
+                            children: e(i, {
+                                breakpoint: o,
+                                overrides: {
+                                    VnGzoQNds: {
+                                        __framer__styleTransformEffectEnabled: void 0,
+                                        style: {}
+                                    }
+                                },
+                                children: e(N, {
+                                    __framer__styleTransformEffectEnabled: !0,
+                                    __framer__transformTargets: [{
+                                        target: {
+                                            opacity: 1,
+                                            rotate: 0,
+                                            rotateX: 0,
+                                            rotateY: 0,
+                                            scale: 1,
+                                            skewX: 0,
+                                            skewY: 0,
+                                            x: 0,
+                                            y: -500
+                                        }
+                                    }, {
+                                        target: {
+                                            opacity: 1,
+                                            rotate: 0,
+                                            rotateX: 0,
+                                            rotateY: 0,
+                                            scale: 1,
+                                            skewX: 0,
+                                            skewY: 0,
+                                            x: 0,
+                                            y: 0
+                                        }
+                                    }],
+                                    __framer__transformTrigger: "onInView",
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    className: "framer-17j58gd-container",
+                                    style: {
+                                        transformPerspective: 1200
+                                    },
+                                    children: e(i, {
+                                        breakpoint: o,
+                                        overrides: {
+                                            pI9W_PNdI: {
+                                                style: {
+                                                    maxHeight: "100%",
+                                                    width: "100%"
+                                                },
+                                                variant: "jbbcbpulJ"
+                                            },
+                                            VnGzoQNds: {
+                                                style: {
+                                                    maxHeight: "100%",
+                                                    width: "100%"
+                                                },
+                                                variant: "RSos2oHJP"
+                                            }
+                                        },
+                                        children: e(I, {
+                                            height: "100%",
+                                            id: "zzmPK7YZ0",
+                                            layoutId: "zzmPK7YZ0",
+                                            style: {
+                                                height: "100%",
+                                                maxHeight: "100%",
+                                                width: "100%"
+                                            },
+                                            variant: "gsKKaJUDB",
+                                            width: "100%"
+                                        })
+                                    })
+                                })
+                            })
+                        })
+                    })]
+                }), e("div", {
+                    className: A(se, ...U),
+                    id: "overlay"
+                })]
+            })
+        })
+})
+    , Re = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", `.${P.bodyClassName}-framer-TAqaM { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; }`, ".framer-TAqaM.framer-lux5qc, .framer-TAqaM .framer-lux5qc { display: block; }", ".framer-TAqaM.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, #ffffff); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1100px; }", ".framer-TAqaM .framer-p34yk0-container { flex: none; height: auto; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 10; }", ".framer-TAqaM .framer-nwve3s { align-content: center; align-items: center; background-color: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, #ffffff); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 160px; height: min-content; justify-content: center; overflow: visible; padding: 160px 80px 240px 80px; position: relative; width: 100%; z-index: 2; }", ".framer-TAqaM .framer-ftb13i { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 240px; height: min-content; justify-content: center; max-width: 1800px; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-TAqaM .framer-m6sp60 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-TAqaM .framer-l5382l { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }", ".framer-TAqaM .framer-qn66lz-container { flex: none; height: auto; position: relative; width: auto; }", ".framer-TAqaM .framer-po57qo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-TAqaM .framer-2ibz2h { display: grid; flex: none; gap: 40px; grid-auto-rows: 600px; grid-template-columns: repeat(2, minmax(200px, 1fr)); height: min-content; justify-content: start; padding: 0px; position: relative; width: 100%; }", ".framer-TAqaM .framer-r5ebzq-container { align-self: start; flex: none; height: 100%; justify-self: start; position: relative; width: 100%; }", ".framer-TAqaM .framer-ui6wpl { flex: none; height: 200px; position: relative; width: 100%; }", ".framer-TAqaM .framer-17j58gd-container { flex: none; height: 90vh; max-height: 1000px; position: relative; width: 100%; z-index: 1; }", "@supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-TAqaM.framer-72rtr7, .framer-TAqaM .framer-nwve3s, .framer-TAqaM .framer-ftb13i, .framer-TAqaM .framer-m6sp60, .framer-TAqaM .framer-po57qo { gap: 0px; } .framer-TAqaM.framer-72rtr7 > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-TAqaM.framer-72rtr7 > :first-child, .framer-TAqaM .framer-nwve3s > :first-child, .framer-TAqaM .framer-ftb13i > :first-child, .framer-TAqaM .framer-m6sp60 > :first-child, .framer-TAqaM .framer-po57qo > :first-child { margin-top: 0px; } .framer-TAqaM.framer-72rtr7 > :last-child, .framer-TAqaM .framer-nwve3s > :last-child, .framer-TAqaM .framer-ftb13i > :last-child, .framer-TAqaM .framer-m6sp60 > :last-child, .framer-TAqaM .framer-po57qo > :last-child { margin-bottom: 0px; } .framer-TAqaM .framer-nwve3s > * { margin: 0px; margin-bottom: calc(160px / 2); margin-top: calc(160px / 2); } .framer-TAqaM .framer-ftb13i > * { margin: 0px; margin-bottom: calc(240px / 2); margin-top: calc(240px / 2); } .framer-TAqaM .framer-m6sp60 > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-TAqaM .framer-po57qo > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } }", `@media (min-width: 768px) and (max-width: 1099px) { .${P.bodyClassName}-framer-TAqaM { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; } .framer-TAqaM.framer-72rtr7 { width: 768px; } .framer-TAqaM .framer-nwve3s { gap: 0px; padding: 160px 64px 160px 64px; } .framer-TAqaM .framer-ftb13i { gap: 120px; } .framer-TAqaM .framer-2ibz2h { grid-auto-rows: 450px; } .framer-TAqaM .framer-r5ebzq-container { height: 450px; } .framer-TAqaM .framer-17j58gd-container { height: auto; } @supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-TAqaM .framer-nwve3s, .framer-TAqaM .framer-ftb13i { gap: 0px; } .framer-TAqaM .framer-nwve3s > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-TAqaM .framer-nwve3s > :first-child, .framer-TAqaM .framer-ftb13i > :first-child { margin-top: 0px; } .framer-TAqaM .framer-nwve3s > :last-child, .framer-TAqaM .framer-ftb13i > :last-child { margin-bottom: 0px; } .framer-TAqaM .framer-ftb13i > * { margin: 0px; margin-bottom: calc(120px / 2); margin-top: calc(120px / 2); } }}`, `@media (max-width: 767px) { .${P.bodyClassName}-framer-TAqaM { background: var(--token-e16847f2-b192-48e1-a890-7bbcce11cc6e, rgb(255, 255, 255)) /* {"name":"Primary / White"} */; } .framer-TAqaM.framer-72rtr7 { width: 390px; } .framer-TAqaM .framer-nwve3s { gap: 0px; padding: 120px 16px 160px 16px; } .framer-TAqaM .framer-ftb13i { gap: 80px; } .framer-TAqaM .framer-m6sp60 { gap: 48px; } .framer-TAqaM .framer-2ibz2h { grid-auto-rows: 300px; grid-template-columns: repeat(1, minmax(200px, 1fr)); } .framer-TAqaM .framer-r5ebzq-container { height: 300px; } .framer-TAqaM .framer-17j58gd-container { height: auto; } @supports (background: -webkit-named-image(i)) and (not (scale:1)) { .framer-TAqaM .framer-nwve3s, .framer-TAqaM .framer-ftb13i, .framer-TAqaM .framer-m6sp60 { gap: 0px; } .framer-TAqaM .framer-nwve3s > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } .framer-TAqaM .framer-nwve3s > :first-child, .framer-TAqaM .framer-ftb13i > :first-child, .framer-TAqaM .framer-m6sp60 > :first-child { margin-top: 0px; } .framer-TAqaM .framer-nwve3s > :last-child, .framer-TAqaM .framer-ftb13i > :last-child, .framer-TAqaM .framer-m6sp60 > :last-child { margin-bottom: 0px; } .framer-TAqaM .framer-ftb13i > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-TAqaM .framer-m6sp60 > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } }}`, ...ne]
+    , y = W(Ee, Re, "framer-TAqaM")
+    , ir = y;
+y.displayName = "Home";
+y.defaultProps = {
+    height: 4478,
+    width: 1100
+};
+re(y, [{
+    explicitInter: !0,
+    fonts: [{
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        url: "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+        url: "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+1F00-1FFF",
+        url: "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0370-03FF",
+        url: "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        url: "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        url: "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+        weight: "400"
+    }, {
+        family: "Inter",
+        source: "framer",
+        style: "normal",
+        unicodeRange: "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB",
+        url: "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+        weight: "400"
+    }]
+}, ...ge, ...xe, ...we, ...ye, ...ae(te)], {
+    supportsExplicitInterCodegen: !0
+});
+var or = {
+    exports: {
+        default: {
+            type: "reactComponent",
+            name: "FrameraugiA20Il",
+            slots: [],
+            annotations: {
+                framerIntrinsicWidth: "1100",
+                framerImmutableVariables: "true",
+                framerIntrinsicHeight: "4478",
+                framerComponentViewportWidth: "true",
+                framerContractVersion: "1",
+                framerDisplayContentsDiv: "false",
+                framerResponsiveScreen: "",
+                framerCanvasComponentVariantDetails: '{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"pI9W_PNdI":{"layout":["fixed","auto"]},"VnGzoQNds":{"layout":["fixed","auto"]}}}'
+            }
+        },
+        Props: {
+            type: "tsType",
+            annotations: {
+                framerContractVersion: "1"
+            }
+        },
+        __FramerMetadata__: {
+            type: "variable"
+        }
+    }
+};
+export {or as __FramerMetadata__, ir as default};
+//# sourceMappingURL=xLNJWUGz4eu-yPxq0xLaCyDLGSoUTbT_yaczv1fpE7w.43LTJSHU.mjs.map
